@@ -3,8 +3,20 @@
     src: url('/fonts/28 Days Later.ttf');
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    background: #4cff00;
+    background-repeat: no-repeat;
+    background: #423a00; /* Old browsers */
+    background: -moz-linear-gradient(top, #423a00 1%, #616300 15%, #34c10d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#423a00), color-stop(15%,#616300), color-stop(100%,#34c10d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #423a00 1%,#616300 15%,#34c10d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #423a00 1%,#616300 15%,#34c10d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #423a00 1%,#616300 15%,#34c10d 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #423a00 1%,#616300 15%,#34c10d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#423a00', endColorstr='#34c10d',GradientType=0 ); /* IE6-9 */
 }
 
     body header h1 {
@@ -12,51 +24,60 @@ body {
         font-size: 110px;
         position: absolute;
         left: 19%;
+        text-shadow: 5px 5px 9px rgba(255, 238, 58, 1);
+        color: rgba(94, 31, 20, 1);
     }
 
     body section button {
         display: block;
     }
 
+button:hover {
+    cursor: zoom-in;
+}
+button:active {
+    cursor: zoom-out;
+}
+
 #calculate-ukal {
     position: absolute;
     left: 38%;
     top: 40%;
-    width: 400px;
-    height: 60px;
-    font-family: Verdana;
-    font-size: 30px;
+    width: 259px;
+    height: 78px;
     border: none;
     border-radius: 5px;
-    background: rgb(237,11,11); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(237,11,11,1) 0%, rgba(25,140,229,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(237,11,11,1)), color-stop(100%,rgba(25,140,229,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg, rgba(237,11,11,1) 0%,rgba(25,140,229,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg, rgba(237,11,11,1) 0%,rgba(25,140,229,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg, rgba(237,11,11,1) 0%,rgba(25,140,229,1) 100%); /* IE10+ */
-    background: linear-gradient(135deg, rgba(237,11,11,1) 0%,rgba(25,140,229,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed0b0b', endColorstr='#198ce5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: url("../Images/button_sprite_calculate5.gif") no-repeat; /*e tuka mi izqde mozuka taq typnq 1 chas implementirane na button "" tiq shitni e trqbvalo da sloja i samo .. predi da napisha putq! Dea!...  Qm qbylka!... Ot nervi*/
+    background-position: top;
 }
+
+    #calculate-ukal:hover {
+        background-position: center;
+    }
+
+    #calculate-ukal:active {
+        background-position: bottom;
+    }
 
 #the-band {
     position: absolute;
     left: 38%;
     top: 55%;
-    width: 400px;
-    height: 60px;
-    font-family: Verdana;
-    font-size: 30px;
+    width: 259px;
+    height: 78px;
     border: none;
     border-radius: 5px;
-    background: rgb(28,125,142); /* Old browsers */
-    background: -moz-linear-gradient(45deg, rgba(28,125,142,1) 0%, rgba(172,204,229,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(28,125,142,1)), color-stop(100%,rgba(172,204,229,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(45deg, rgba(28,125,142,1) 0%,rgba(172,204,229,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(45deg, rgba(28,125,142,1) 0%,rgba(172,204,229,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(45deg, rgba(28,125,142,1) 0%,rgba(172,204,229,1) 100%); /* IE10+ */
-    background: linear-gradient(45deg, rgba(28,125,142,1) 0%,rgba(172,204,229,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7d8e', endColorstr='#accce5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: url("../Images/button_sprite_theband_1.gif") no-repeat; /*e tuka mi izqde mozuka taq typnq 1 chas implementirane na button "" tiq shitni e trqbvalo da sloja i samo .. predi da napisha putq! Dea!...  Qm qbylka!... Ot nervi*/
+    background-position: top;
 }
+
+    #the-band:hover {
+        background-position: center;
+    }
+
+    #the-band:active {
+        background-position: bottom;
+    }
 
 #how-to {
     position: absolute;
@@ -64,21 +85,23 @@ body {
     top: 70%;
     width: 400px;
     height: 60px;
-    font-family: Verdana;
-    font-size: 30px;
+    width: 259px;
+    height: 78px;
     border: none;
     border-radius: 5px;
-    background: rgb(255,22,22); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(255,22,22,1) 0%, rgba(32,195,204,1) 68%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,22,22,1)), color-stop(68%,rgba(32,195,204,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg, rgba(255,22,22,1) 0%,rgba(32,195,204,1) 68%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg, rgba(255,22,22,1) 0%,rgba(32,195,204,1) 68%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg, rgba(255,22,22,1) 0%,rgba(32,195,204,1) 68%); /* IE10+ */
-    background: linear-gradient(135deg, rgba(255,22,22,1) 0%,rgba(32,195,204,1) 68%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1616', endColorstr='#20c3cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: url("../Images/button_sprite_japanese_3.gif") no-repeat; /*e tuka mi izqde mozuka taq typnq 1 chas implementirane na button "" tiq shitni e trqbvalo da sloja i samo .. predi da napisha putq! Dea!...  Qm qbylka!... Ot nervi*/
+    background-position: top;
 }
 
-body footer span{
+    #how-to:hover {
+        background-position: center;
+    }
+
+    #how-to:active {
+        background-position: bottom;
+    }
+
+body footer span {
     position: absolute;
     top: 88%;
     left: 44%;
@@ -86,13 +109,13 @@ body footer span{
     font-size: 30px;
 }
 
-#the-canvas{
+#the-canvas {
     position: absolute;
     left: 35%;
     top: 30%;
 }
 
-#beta{
+#beta {
     position: absolute;
     left: 1250px;
     bottom: 0px;
@@ -101,6 +124,6 @@ body footer span{
     color: rgb(28,125,142);
 }
 
-button:focus{
+button:focus {
     outline: 0;
 }
