@@ -1,6 +1,8 @@
 ﻿var canvas = document.getElementById('the-canvas');
 var ctx = canvas.getContext('2d');
 
+var calculateUkalButton = document.getElementById('calculate-ukal');
+
 ctx.beginPath();
 ctx.fillStyle = "black";
 ctx.arc(105, 70, 40, 0, 2 * Math.PI);
