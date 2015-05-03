@@ -1,5 +1,5 @@
 ﻿@font-face {
-    font-family: chocolateBand;
+    font-family: chocolateGang;
     src: url('/fonts/28 Days Later.ttf');
 }
 
@@ -20,13 +20,13 @@ body {
 }
 
     body header h1 {
-        font-family: chocolateBand;
+        width: 710px;
+        height: 40px;
+        font-family: chocolateGang;
         font-size: 110px;
-        position: absolute;
-        left: 19%;
+        margin-left: 350px;
         text-shadow: 5px 5px 9px rgba(255, 238, 58, 1);
         color: rgba(94, 31, 20, 1);
-        left: 25%;
     }
 
     body section button {
@@ -36,14 +36,14 @@ body {
 button:hover {
     cursor: zoom-in;
 }
+
 button:active {
     cursor: zoom-out;
 }
 
 #calculate-ukal {
-    position: absolute;
-    left: 38%;
-    top: 40%;
+    margin-left: 550px;
+    margin-bottom: 20px;
     width: 259px;
     height: 78px;
     border: none;
@@ -61,9 +61,8 @@ button:active {
     }
 
 #the-band {
-    position: absolute;
-    left: 38%;
-    top: 55%;
+    margin-left: 550px;
+    margin-bottom: 20px;
     width: 259px;
     height: 78px;
     border: none;
@@ -81,11 +80,8 @@ button:active {
     }
 
 #how-to {
-    position: absolute;
-    left: 38%;
-    top: 70%;
-    width: 400px;
-    height: 60px;
+    margin-left: 550px;
+    margin-bottom: 20px;
     width: 259px;
     height: 78px;
     border: none;
@@ -102,25 +98,26 @@ button:active {
         background-position: bottom;
     }
 
-body footer span {
-    position: absolute;
-    top: 88%;
-    left: 44%;
-    font-family: Tahoma;
-    font-size: 30px;
+body footer {
+    margin-left: 565px;
+    margin-top: 60px;
 }
 
+    body footer span {
+        font-family: Tahoma;
+        font-size: 30px;
+    }
+
 #the-canvas {
-    position: absolute;
-    left: 35%;
-    top: 30%;
+    margin-left: 500px;
+    margin-bottom: -4px;
 }
 
 #beta {
     position: absolute;
     left: 1250px;
     bottom: 0px;
-    font-family: chocolateBand;
+    font-family: chocolateGang;
     font-size: 20px;
     color: rgb(28,125,142);
 }
