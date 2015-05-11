@@ -10,8 +10,8 @@ body {
     body h1 {
         font-family: chocolateBand;
         font-size: 110px;
-        position: absolute;
-        left: 26%;
+        margin-left: 350px;
+        width: 730px;
     }
 
 #output {
@@ -30,9 +30,9 @@ body {
 #calculator {
     border: 3px solid black;
     border-radius: 5px;
-    position: absolute;
-    top: 35%;
-    left: 40%;
+    margin-left: 520px;
+    margin-top: -30px;
+    width: 354px;
     text-align: center;
     background: rgb(145,192,196); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(145,192,196,1) 0%, rgba(32,195,204,1) 68%); /* FF3.6+ */

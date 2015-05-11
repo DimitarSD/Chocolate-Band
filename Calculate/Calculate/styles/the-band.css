@@ -10,14 +10,13 @@ body {
     body h1 {
         font-family: chocolateBand;
         font-size: 110px;
-        position: absolute;
-        left: 33%;
+        margin-left: 430px;
+        width: 590px;
     }
 
 section {
-    position: absolute;
-    left: 20%;
-    top: 35%;
+    margin-top: -75px;
+    margin-left: 256px;
 }
 
     section div {
