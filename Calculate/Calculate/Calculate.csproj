@@ -70,6 +70,7 @@
     <Content Include="calculateUkal.html" />
     <Content Include="how-to.html" />
     <Content Include="index.html" />
+    <Content Include="js-library\jquery-2.1.4.js" />
     <Content Include="script\buttons-effects.js" />
     <Content Include="script\calculator.js" />
     <Content Include="script\canvas.js" />
@@ -85,6 +86,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
