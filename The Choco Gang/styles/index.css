@@ -1,0 +1,127 @@
+@font-face {
+    font-family: chocoGang;
+    src: url('../fonts/28 Days Later.ttf');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background: #423a00; /* Old browsers */
+    background: -moz-linear-gradient(top, #423a00 1%, #616300 15%, #34c10d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#423a00), color-stop(15%,#616300), color-stop(100%,#34c10d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #423a00 1%,#616300 15%,#34c10d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #423a00 1%,#616300 15%,#34c10d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #423a00 1%,#616300 15%,#34c10d 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #423a00 1%,#616300 15%,#34c10d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#423a00', endColorstr='#34c10d',GradientType=0 ); /* IE6-9 */
+}
+
+    body header h1 {
+        width: 710px;
+        height: 40px;
+        font-family: chocoGang;
+        font-size: 110px;
+        margin-left: 350px;
+        text-shadow: 5px 5px 9px rgba(255, 238, 58, 1);
+        color: rgba(94, 31, 20, 1);
+    }
+
+    body section button {
+        display: block;
+    }
+
+button:hover {
+    cursor: zoom-in;
+}
+
+button:active {
+    cursor: zoom-out;
+}
+
+#calculate-ukal {
+    margin-left: 550px;
+    margin-bottom: 20px;
+    width: 259px;
+    height: 78px;
+    border: none;
+    border-radius: 5px;
+    background: url("../images/button_sprite_calculate5.gif") no-repeat; /*e tuka mi izqde mozuka taq typnq 1 chas implementirane na button "" tiq shitni e trqbvalo da sloja i samo .. predi da napisha putq! Dea!...  Qm qbylka!... Ot nervi*/
+    background-position: top;
+}
+
+    #calculate-ukal:hover {
+        background-position: center;
+    }
+
+    #calculate-ukal:active {
+        background-position: bottom;
+    }
+
+#the-band {
+    margin-left: 550px;
+    margin-bottom: 20px;
+    width: 259px;
+    height: 78px;
+    border: none;
+    border-radius: 5px;
+    background: url("../images/button_sprite_theband_1.gif") no-repeat; /*e tuka mi izqde mozuka taq typnq 1 chas implementirane na button "" tiq shitni e trqbvalo da sloja i samo .. predi da napisha putq! Dea!...  Qm qbylka!... Ot nervi*/
+    background-position: top;
+}
+
+    #the-band:hover {
+        background-position: center;
+    }
+
+    #the-band:active {
+        background-position: bottom;
+    }
+
+#how-to {
+    margin-left: 550px;
+    margin-bottom: 20px;
+    width: 259px;
+    height: 78px;
+    border: none;
+    border-radius: 5px;
+    background: url("../images/button_sprite_japanese_3.gif") no-repeat; /*e tuka mi izqde mozuka taq typnq 1 chas implementirane na button "" tiq shitni e trqbvalo da sloja i samo .. predi da napisha putq! Dea!...  Qm qbylka!... Ot nervi*/
+    background-position: top;
+}
+
+    #how-to:hover {
+        background-position: center;
+    }
+
+    #how-to:active {
+        background-position: bottom;
+    }
+
+body footer {
+    margin-left: 565px;
+    margin-top: 60px;
+}
+
+    body footer span {
+        font-family: Tahoma;
+        font-size: 30px;
+    }
+
+#the-canvas {
+    margin-left: 500px;
+    margin-bottom: -4px;
+}
+
+#beta {
+    position: absolute;
+    left: 1250px;
+    bottom: 0px;
+    font-family: chocoGang;
+    font-size: 20px;
+    color: rgb(28,125,142);
+}
+
+button:focus {
+    outline: 0;
+}

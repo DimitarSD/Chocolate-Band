@@ -1,0 +1,60 @@
+@font-face {
+    font-family: chocoGang;
+    src: url('../fonts/28 Days Later.ttf');
+}
+
+body {
+    background: #4cff00;
+}
+
+    body > h1 {
+        font-family: chocoGang;
+        font-size: 110px;
+        position: absolute;
+        margin-top: 30px;
+        left: 38%;
+    }
+
+#recept {
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    border: 3px solid black;
+    width: 200px;
+    height: 300px;
+    text-align: left;
+    background: rgb(237,21,21); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(237,21,21,1) 18%, rgba(28,156,178,1) 91%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(18%,rgba(237,21,21,1)), color-stop(91%,rgba(28,156,178,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* IE10+ */
+    background: linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed1515', endColorstr='#1c9cb2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+    #recept h1 {
+        position: relative;
+        left: 30px;
+        font-family: Verdana;
+        font-size: 16px;
+    }
+
+#back {
+    position: absolute;
+    bottom: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: Verdana;
+    font-size: 20px;
+    background: rgb(237,21,21); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(237,21,21,1) 18%, rgba(28,156,178,1) 91%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(18%,rgba(237,21,21,1)), color-stop(91%,rgba(28,156,178,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* IE10+ */
+    background: linear-gradient(45deg, rgba(237,21,21,1) 18%,rgba(28,156,178,1) 91%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed1515', endColorstr='#1c9cb2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
